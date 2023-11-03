@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/chainupcloud/op-geth/common"
 	"github.com/stretchr/testify/require"
 )
 

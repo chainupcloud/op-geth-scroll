@@ -24,14 +24,14 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie/testutil"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/core/rawdb"
+	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth/trie/testutil"
+	"github.com/chainupcloud/op-geth/trie/trienode"
+	"github.com/chainupcloud/op-geth/trie/triestate"
 )
 
 func updateTrie(addrHash common.Hash, root common.Hash, dirties, cleans map[common.Hash][]byte) (common.Hash, *trienode.NodeSet) {

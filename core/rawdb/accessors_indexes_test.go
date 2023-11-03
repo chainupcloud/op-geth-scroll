@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/blocktest"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth/internal/blocktest"
+	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth/rlp"
 )
 
 var newTestHasher = blocktest.NewHasher

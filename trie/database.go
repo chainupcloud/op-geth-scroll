@@ -19,13 +19,13 @@ package trie
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth/trie/triedb/hashdb"
+	"github.com/chainupcloud/op-geth/trie/triedb/pathdb"
+	"github.com/chainupcloud/op-geth/trie/trienode"
+	"github.com/chainupcloud/op-geth/trie/triestate"
 )
 
 // Config defines all necessary options for database.

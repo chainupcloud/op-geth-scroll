@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth/log"
 )
 
 // bodyQueue implements typedQueue and is a type adapter between the generic

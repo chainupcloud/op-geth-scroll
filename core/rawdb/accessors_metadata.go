@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

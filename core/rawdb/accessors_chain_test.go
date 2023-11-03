@@ -26,12 +26,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/common/math"
+	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth/rlp"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/sha3"
 )

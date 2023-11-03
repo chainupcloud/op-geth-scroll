@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/chainupcloud/op-geth/eth/filters"
+	"github.com/chainupcloud/op-geth/internal/ethapi"
+	"github.com/chainupcloud/op-geth/node"
+	"github.com/chainupcloud/op-geth/rpc"
 	"github.com/graph-gophers/graphql-go"
 	gqlErrors "github.com/graph-gophers/graphql-go/errors"
 )

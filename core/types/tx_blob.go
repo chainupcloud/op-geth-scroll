@@ -21,10 +21,10 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/crypto/kzg4844"
+	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

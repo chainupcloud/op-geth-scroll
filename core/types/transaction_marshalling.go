@@ -22,9 +22,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

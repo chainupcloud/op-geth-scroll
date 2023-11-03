@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/core"
+	"github.com/chainupcloud/op-geth/core/rawdb"
+	"github.com/chainupcloud/op-geth/core/txpool"
+	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth/trie/trienode"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

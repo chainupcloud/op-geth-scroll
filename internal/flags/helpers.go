@@ -23,9 +23,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/chainupcloud/op-geth/internal/version"
+	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth/params"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 )

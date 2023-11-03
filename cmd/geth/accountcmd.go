@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/chainupcloud/op-geth/accounts"
+	"github.com/chainupcloud/op-geth/accounts/keystore"
+	"github.com/chainupcloud/op-geth/cmd/utils"
+	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

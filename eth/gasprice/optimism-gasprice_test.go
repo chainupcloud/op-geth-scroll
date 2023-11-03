@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/core"
+	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth/event"
+	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth/trie"
 )
 
 const (

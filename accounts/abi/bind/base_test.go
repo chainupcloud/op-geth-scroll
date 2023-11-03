@@ -24,14 +24,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chainupcloud/op-geth"
+	"github.com/chainupcloud/op-geth/accounts/abi"
+	"github.com/chainupcloud/op-geth/accounts/abi/bind"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

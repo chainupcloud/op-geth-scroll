@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth/event"
+	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth/p2p/msgrate"
 )
 
 const (

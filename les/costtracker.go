@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth/eth/ethconfig"
+	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth/les/flowcontrol"
+	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

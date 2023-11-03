@@ -25,14 +25,14 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth/node"
+	"github.com/chainupcloud/op-geth/p2p"
+	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth/p2p/enr"
+	"github.com/chainupcloud/op-geth/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gorilla/websocket"
 )
 

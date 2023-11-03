@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth/core"
+	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth/p2p"
+	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth/p2p/enr"
+	"github.com/chainupcloud/op-geth/trie"
+	"github.com/chainupcloud/op-geth/trie/trienode"
 )
 
 const (

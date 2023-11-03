@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/chainupcloud/op-geth/eth"
+	"github.com/chainupcloud/op-geth/eth/ethconfig"
+	"github.com/chainupcloud/op-geth/internal/utesting"
+	"github.com/chainupcloud/op-geth/node"
+	"github.com/chainupcloud/op-geth/p2p"
 )
 
 var (

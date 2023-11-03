@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/chainupcloud/op-geth/accounts/scwallet"
+	"github.com/chainupcloud/op-geth/accounts/usbwallet"
+	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth/console/prompt"
+	"github.com/chainupcloud/op-geth/internal/jsre"
+	"github.com/chainupcloud/op-geth/rpc"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime
