@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

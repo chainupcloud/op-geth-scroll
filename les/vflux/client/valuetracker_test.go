@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
-	"github.com/chainupcloud/op-geth/ethdb/memorydb"
-	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/ethdb/memorydb"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
 
-	"github.com/chainupcloud/op-geth/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
 )
 
 const (

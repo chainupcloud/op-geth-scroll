@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/debug"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/debug"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

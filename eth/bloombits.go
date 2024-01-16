@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/bitutil"
-	"github.com/chainupcloud/op-geth/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/common/bitutil"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
 )
 
 const (

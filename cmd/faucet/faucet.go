@@ -39,24 +39,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/accounts/keystore"
-	"github.com/chainupcloud/op-geth/cmd/utils"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/eth/downloader"
-	"github.com/chainupcloud/op-geth/eth/ethconfig"
-	"github.com/chainupcloud/op-geth/ethclient"
-	"github.com/chainupcloud/op-geth/ethstats"
-	"github.com/chainupcloud/op-geth/internal/version"
-	"github.com/chainupcloud/op-geth/les"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/node"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/nat"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/accounts/keystore"
+	"github.com/chainupcloud/op-geth-scroll/cmd/utils"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/eth/downloader"
+	"github.com/chainupcloud/op-geth-scroll/eth/ethconfig"
+	"github.com/chainupcloud/op-geth-scroll/ethclient"
+	"github.com/chainupcloud/op-geth-scroll/ethstats"
+	"github.com/chainupcloud/op-geth-scroll/internal/version"
+	"github.com/chainupcloud/op-geth-scroll/les"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/node"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/nat"
+	"github.com/chainupcloud/op-geth-scroll/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -458,7 +458,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/chainupcloud/op-geth/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/chainupcloud/op-geth-scroll/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

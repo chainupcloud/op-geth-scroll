@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
 )
 
 var (

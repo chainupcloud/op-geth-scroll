@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

@@ -20,11 +20,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/internal/ethapi"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/signer/core/apitypes"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/internal/ethapi"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/signer/core/apitypes"
 )
 
 type AuditLogger struct {

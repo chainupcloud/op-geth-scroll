@@ -22,10 +22,10 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 type (

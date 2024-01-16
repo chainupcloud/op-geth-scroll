@@ -20,8 +20,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // BeaconDevSync is a development helper to test synchronization by providing

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 func ExampleEncoderBuffer() {

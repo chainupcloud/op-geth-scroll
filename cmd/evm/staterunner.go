@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/state"
-	"github.com/chainupcloud/op-geth/core/state/snapshot"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/eth/tracers/logger"
-	"github.com/chainupcloud/op-geth/tests"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
+	"github.com/chainupcloud/op-geth-scroll/core/state/snapshot"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/eth/tracers/logger"
+	"github.com/chainupcloud/op-geth-scroll/tests"
 	"github.com/urfave/cli/v2"
 )
 

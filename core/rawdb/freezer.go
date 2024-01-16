@@ -26,10 +26,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/ethdb"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
 	"github.com/gofrs/flock"
 )
 

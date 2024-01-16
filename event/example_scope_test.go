@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/chainupcloud/op-geth/event"
+	"github.com/chainupcloud/op-geth-scroll/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

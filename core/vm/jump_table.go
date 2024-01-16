@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 type (

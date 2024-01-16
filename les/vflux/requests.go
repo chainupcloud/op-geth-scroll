@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

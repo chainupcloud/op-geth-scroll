@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 )
 
 var _ = (*executionPayloadEnvelopeMarshaling)(nil)

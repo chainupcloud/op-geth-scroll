@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/eth/protocols/eth"
-	"github.com/chainupcloud/op-geth/internal/utesting"
-	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth-scroll/internal/utesting"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

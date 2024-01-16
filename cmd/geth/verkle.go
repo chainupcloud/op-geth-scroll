@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainupcloud/op-geth/cmd/utils"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/internal/flags"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/cmd/utils"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	"github.com/gballet/go-verkle"
 	cli "github.com/urfave/cli/v2"
 )

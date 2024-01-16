@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/chainupcloud/op-geth/common/bitutil"
+	"github.com/chainupcloud/op-geth-scroll/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

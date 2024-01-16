@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/eth/downloader"
-	"github.com/chainupcloud/op-geth/eth/ethconfig"
-	"github.com/chainupcloud/op-geth/node"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/eth/downloader"
+	"github.com/chainupcloud/op-geth-scroll/eth/ethconfig"
+	"github.com/chainupcloud/op-geth-scroll/node"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 func TestSignalSuperchainV1(t *testing.T) {

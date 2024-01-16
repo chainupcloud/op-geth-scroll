@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/accounts/abi"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

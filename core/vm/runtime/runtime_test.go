@@ -23,21 +23,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/accounts/abi"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/consensus"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/asm"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/state"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/eth/tracers"
-	"github.com/chainupcloud/op-geth/eth/tracers/logger"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/consensus"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/asm"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/eth/tracers"
+	"github.com/chainupcloud/op-geth-scroll/eth/tracers/logger"
+	"github.com/chainupcloud/op-geth-scroll/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/chainupcloud/op-geth/eth/tracers/js"
+	_ "github.com/chainupcloud/op-geth-scroll/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -599,7 +599,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/chainupcloud/op-geth/issues/22649
+// see: https://github.com/chainupcloud/op-geth-scroll/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

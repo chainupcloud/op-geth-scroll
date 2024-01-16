@@ -19,12 +19,12 @@ package core
 import (
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/consensus"
-	"github.com/chainupcloud/op-geth/consensus/misc/eip4844"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/consensus"
+	"github.com/chainupcloud/op-geth-scroll/consensus/misc/eip4844"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

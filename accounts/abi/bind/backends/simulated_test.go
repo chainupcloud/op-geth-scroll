@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth"
-	"github.com/chainupcloud/op-geth/accounts/abi"
-	"github.com/chainupcloud/op-geth/accounts/abi/bind"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi/bind"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

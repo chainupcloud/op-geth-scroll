@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

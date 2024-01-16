@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

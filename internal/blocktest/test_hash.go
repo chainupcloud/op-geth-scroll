@@ -25,7 +25,7 @@ package blocktest
 import (
 	"hash"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -44,13 +44,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/flags"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/simulations"
-	"github.com/chainupcloud/op-geth/p2p/simulations/adapters"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/simulations"
+	"github.com/chainupcloud/op-geth-scroll/p2p/simulations/adapters"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 	"github.com/urfave/cli/v2"
 )
 

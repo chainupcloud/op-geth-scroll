@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/math"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

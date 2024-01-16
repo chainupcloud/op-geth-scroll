@@ -23,7 +23,7 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/chainupcloud/op-geth/rlp/internal/rlpstruct"
+	"github.com/chainupcloud/op-geth-scroll/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

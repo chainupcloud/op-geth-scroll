@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"github.com/davecgh/go-spew/spew"
 )
 

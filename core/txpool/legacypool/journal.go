@@ -22,10 +22,10 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

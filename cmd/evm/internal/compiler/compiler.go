@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/core/asm"
+	"github.com/chainupcloud/op-geth-scroll/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

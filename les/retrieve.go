@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/light"
+	"github.com/chainupcloud/op-geth-scroll/light"
 )
 
 var (

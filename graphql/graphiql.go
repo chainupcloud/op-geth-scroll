@@ -27,8 +27,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/chainupcloud/op-geth/graphql/internal/graphiql"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/graphql/internal/graphiql"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // GraphiQL is an in-browser IDE for exploring GraphiQL APIs.

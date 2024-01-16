@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/state"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/eth/tracers"
-	"github.com/chainupcloud/op-geth/light"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/eth/tracers"
+	"github.com/chainupcloud/op-geth-scroll/light"
 )
 
 // noopReleaser is returned in case there is no operation expected

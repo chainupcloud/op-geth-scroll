@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 var (

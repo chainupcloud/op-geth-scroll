@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/chainupcloud/op-geth/accounts/keystore"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/console/prompt"
-	"github.com/chainupcloud/op-geth/p2p/dnsdisc"
-	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/accounts/keystore"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/console/prompt"
+	"github.com/chainupcloud/op-geth-scroll/p2p/dnsdisc"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/crypto/ecies"
-	"github.com/chainupcloud/op-geth/p2p/simulations/pipes"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/crypto/ecies"
+	"github.com/chainupcloud/op-geth-scroll/p2p/simulations/pipes"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/stretchr/testify/assert"
 )

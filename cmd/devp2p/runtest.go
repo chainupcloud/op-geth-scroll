@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/chainupcloud/op-geth/cmd/devp2p/internal/v4test"
-	"github.com/chainupcloud/op-geth/internal/utesting"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/cmd/devp2p/internal/v4test"
+	"github.com/chainupcloud/op-geth-scroll/internal/utesting"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	"github.com/urfave/cli/v2"
 )
 

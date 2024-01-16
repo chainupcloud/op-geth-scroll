@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"mime"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/consensus/clique"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/rlp"
-	"github.com/chainupcloud/op-geth/signer/core/apitypes"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/consensus/clique"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
+	"github.com/chainupcloud/op-geth-scroll/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature
@@ -302,7 +302,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/chainupcloud/op-geth/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/chainupcloud/op-geth-scroll/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, errors.New("signature must be 65 bytes long")
 	}

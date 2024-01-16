@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

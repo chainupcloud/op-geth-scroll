@@ -24,13 +24,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/consensus/ethash"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/state"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/trie"
+	"github.com/chainupcloud/op-geth-scroll/consensus/ethash"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/trie"
 	"github.com/davecgh/go-spew/spew"
 )
 

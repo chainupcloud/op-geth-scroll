@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/chainupcloud/op-geth/cmd/evm/internal/t8ntool"
-	"github.com/chainupcloud/op-geth/internal/debug"
-	"github.com/chainupcloud/op-geth/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/cmd/evm/internal/t8ntool"
+	"github.com/chainupcloud/op-geth-scroll/internal/debug"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

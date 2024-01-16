@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
 )
 
 const tmpSuffix = ".tmp"

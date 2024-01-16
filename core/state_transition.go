@@ -22,11 +22,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
-	cmath "github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	cmath "github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 // ExecutionResult includes all output after executing given evm

@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 	"github.com/ethereum-optimism/superchain-registry/superchain"
 )
 

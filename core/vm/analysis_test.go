@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

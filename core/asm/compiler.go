@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
 )
 
 // Compiler contains information about the parsed source

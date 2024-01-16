@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

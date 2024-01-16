@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

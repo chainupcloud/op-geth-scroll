@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/eth/tracers/logger"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/tests"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/eth/tracers/logger"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/tests"
 )
 
 func BenchmarkTransactionTrace(b *testing.B) {

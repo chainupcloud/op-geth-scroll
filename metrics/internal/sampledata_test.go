@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
 )
 
 func TestCollectRuntimeMetrics(t *testing.T) {

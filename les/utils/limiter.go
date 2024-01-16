@@ -19,7 +19,7 @@ package utils
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
 	"golang.org/x/exp/slices"
 )
 

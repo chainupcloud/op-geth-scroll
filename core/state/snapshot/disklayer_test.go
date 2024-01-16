@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/ethdb/memorydb"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb/memorydb"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

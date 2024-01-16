@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

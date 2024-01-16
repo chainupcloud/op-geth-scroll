@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/event"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/event"
 	"golang.org/x/exp/slices"
 )
 

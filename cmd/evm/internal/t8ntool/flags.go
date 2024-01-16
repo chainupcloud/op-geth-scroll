@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/tests"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/tests"
 	"github.com/urfave/cli/v2"
 )
 

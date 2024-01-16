@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 )
 
 type MyType [5]byte

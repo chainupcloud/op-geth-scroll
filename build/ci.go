@@ -53,10 +53,10 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/crypto/signify"
-	"github.com/chainupcloud/op-geth/internal/build"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/crypto/signify"
+	"github.com/chainupcloud/op-geth-scroll/internal/build"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 var (
@@ -244,11 +244,11 @@ func doInstall(cmdline []string) {
 func buildFlags(env build.Environment, staticLinking bool, buildTags []string) (flags []string) {
 	var ld []string
 	if env.Commit != "" {
-		ld = append(ld, "-X", "github.com/chainupcloud/op-geth/internal/version.gitCommit="+env.Commit)
-		ld = append(ld, "-X", "github.com/chainupcloud/op-geth/internal/version.gitDate="+env.Date)
+		ld = append(ld, "-X", "github.com/chainupcloud/op-geth-scroll/internal/version.gitCommit="+env.Commit)
+		ld = append(ld, "-X", "github.com/chainupcloud/op-geth-scroll/internal/version.gitDate="+env.Date)
 	}
 	if env.Tag != "" {
-		ld = append(ld, "-X", "github.com/chainupcloud/op-geth/params.gitTag="+env.Tag)
+		ld = append(ld, "-X", "github.com/chainupcloud/op-geth-scroll/params.gitTag="+env.Tag)
 	}
 	// Strip DWARF on darwin. This used to be required for certain things,
 	// and there is no downside to this, so we just keep doing it.

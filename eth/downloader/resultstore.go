@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

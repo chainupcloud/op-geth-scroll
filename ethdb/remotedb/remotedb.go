@@ -22,9 +22,9 @@
 package remotedb
 
 import (
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/ethdb"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // Database is a key-value lookup for a remote database via debug_dbGet.

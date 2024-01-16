@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/chainupcloud/op-geth/p2p/enr"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

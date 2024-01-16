@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
 )
 
 type UpdateTimer struct {

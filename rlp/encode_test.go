@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common/math"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
 	"github.com/holiman/uint256"
 )
 

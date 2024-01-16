@@ -21,9 +21,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

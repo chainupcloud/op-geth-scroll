@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/event"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

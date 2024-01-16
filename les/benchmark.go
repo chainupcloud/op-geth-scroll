@@ -25,17 +25,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/mclock"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/les/flowcontrol"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/les/flowcontrol"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // requestBenchmark is an interface for different randomized request generators

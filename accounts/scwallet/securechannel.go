@@ -27,7 +27,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/unicode/norm"

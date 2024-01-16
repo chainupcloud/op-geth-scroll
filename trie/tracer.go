@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // tracer tracks the changes of trie nodes. During the trie operations,

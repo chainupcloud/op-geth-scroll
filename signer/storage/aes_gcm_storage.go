@@ -24,7 +24,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 type storedCredential struct {

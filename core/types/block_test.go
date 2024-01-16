@@ -22,12 +22,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/blocktest"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/blocktest"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

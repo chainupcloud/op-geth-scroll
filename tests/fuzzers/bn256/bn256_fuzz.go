@@ -25,8 +25,8 @@ import (
 	"io"
 	"math/big"
 
-	cloudflare "github.com/chainupcloud/op-geth/crypto/bn256/cloudflare"
-	google "github.com/chainupcloud/op-geth/crypto/bn256/google"
+	cloudflare "github.com/chainupcloud/op-geth-scroll/crypto/bn256/cloudflare"
+	google "github.com/chainupcloud/op-geth-scroll/crypto/bn256/google"
 	"github.com/consensys/gnark-crypto/ecc/bn254"
 )
 

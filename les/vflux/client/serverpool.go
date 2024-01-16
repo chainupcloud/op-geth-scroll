@@ -24,15 +24,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
-	"github.com/chainupcloud/op-geth/ethdb"
-	"github.com/chainupcloud/op-geth/les/utils"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/metrics"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/enr"
-	"github.com/chainupcloud/op-geth/p2p/nodestate"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/p2p/nodestate"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 const (

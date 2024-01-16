@@ -19,8 +19,8 @@ package rawdb
 import (
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"github.com/golang/snappy"
 )
 

@@ -23,11 +23,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/internal/ethapi"
-	"github.com/chainupcloud/op-geth/internal/jsre/deps"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/signer/core"
-	"github.com/chainupcloud/op-geth/signer/storage"
+	"github.com/chainupcloud/op-geth-scroll/internal/ethapi"
+	"github.com/chainupcloud/op-geth-scroll/internal/jsre/deps"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/signer/core"
+	"github.com/chainupcloud/op-geth-scroll/signer/storage"
 	"github.com/dop251/goja"
 )
 

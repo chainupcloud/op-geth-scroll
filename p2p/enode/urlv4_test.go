@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
 )
 
 func init() {

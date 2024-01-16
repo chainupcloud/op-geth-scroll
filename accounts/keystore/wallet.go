@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/chainupcloud/op-geth"
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

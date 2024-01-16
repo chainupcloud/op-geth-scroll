@@ -22,10 +22,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/trie"
-	"github.com/chainupcloud/op-geth/trie/trienode"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/trie"
+	"github.com/chainupcloud/op-geth-scroll/trie/trienode"
 )
 
 // randTest performs random trie operations.

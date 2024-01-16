@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 func minSwapStack(n int) int {

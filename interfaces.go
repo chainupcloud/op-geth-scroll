@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

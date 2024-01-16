@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/common/math"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
 )
 
 func TestBytesPadding(t *testing.T) {

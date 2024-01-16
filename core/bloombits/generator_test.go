@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

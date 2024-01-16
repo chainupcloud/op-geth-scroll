@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/internal/testlog"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/internal/testlog"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"

@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/internal/version"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/internal/version"
+	"github.com/chainupcloud/op-geth-scroll/params"
 	"github.com/urfave/cli/v2"
 )
 

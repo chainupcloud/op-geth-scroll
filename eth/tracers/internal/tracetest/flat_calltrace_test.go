@@ -10,17 +10,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/rlp"
-	"github.com/chainupcloud/op-geth/tests"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
+	"github.com/chainupcloud/op-geth-scroll/tests"
 
 	// Force-load the native, to trigger registration
-	"github.com/chainupcloud/op-geth/eth/tracers"
+	"github.com/chainupcloud/op-geth-scroll/eth/tracers"
 )
 
 // flatCallTrace is the result of a callTracerParity run.

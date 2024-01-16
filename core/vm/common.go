@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/math"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
 	"github.com/holiman/uint256"
 )
 

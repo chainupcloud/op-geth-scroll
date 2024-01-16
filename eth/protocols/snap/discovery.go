@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

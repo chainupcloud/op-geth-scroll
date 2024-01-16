@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/chainupcloud/op-geth/core/types"
+import "github.com/chainupcloud/op-geth-scroll/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

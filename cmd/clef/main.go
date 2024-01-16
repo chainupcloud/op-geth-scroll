@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/accounts/keystore"
-	"github.com/chainupcloud/op-geth/cmd/utils"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/ethapi"
-	"github.com/chainupcloud/op-geth/internal/flags"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/node"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/rlp"
-	"github.com/chainupcloud/op-geth/rpc"
-	"github.com/chainupcloud/op-geth/signer/core"
-	"github.com/chainupcloud/op-geth/signer/core/apitypes"
-	"github.com/chainupcloud/op-geth/signer/fourbyte"
-	"github.com/chainupcloud/op-geth/signer/rules"
-	"github.com/chainupcloud/op-geth/signer/storage"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/accounts/keystore"
+	"github.com/chainupcloud/op-geth-scroll/cmd/utils"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/ethapi"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/node"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
+	"github.com/chainupcloud/op-geth-scroll/signer/core"
+	"github.com/chainupcloud/op-geth-scroll/signer/core/apitypes"
+	"github.com/chainupcloud/op-geth-scroll/signer/fourbyte"
+	"github.com/chainupcloud/op-geth-scroll/signer/rules"
+	"github.com/chainupcloud/op-geth-scroll/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
@@ -870,7 +870,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/chainupcloud/op-geth/issues/20123
+	// https://github.com/chainupcloud/op-geth-scroll/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

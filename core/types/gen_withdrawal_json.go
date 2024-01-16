@@ -5,8 +5,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 )
 
 var _ = (*withdrawalMarshaling)(nil)

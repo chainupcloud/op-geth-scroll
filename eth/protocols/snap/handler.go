@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/metrics"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/enr"
-	"github.com/chainupcloud/op-geth/trie"
-	"github.com/chainupcloud/op-geth/trie/trienode"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/trie"
+	"github.com/chainupcloud/op-geth-scroll/trie/trienode"
 )
 
 const (

@@ -28,20 +28,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/internal/ethapi"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/internal/ethapi"
 
-	"github.com/chainupcloud/op-geth"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/consensus/ethash"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/eth"
-	"github.com/chainupcloud/op-geth/eth/ethconfig"
-	"github.com/chainupcloud/op-geth/node"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/consensus/ethash"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/eth"
+	"github.com/chainupcloud/op-geth-scroll/eth/ethconfig"
+	"github.com/chainupcloud/op-geth-scroll/node"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // Verify that Client implements the ethereum interfaces.

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 var (

@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/testlog"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/enr"
-	"github.com/chainupcloud/op-geth/p2p/rlpx"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/testlog"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/p2p/rlpx"
 )
 
 type testTransport struct {

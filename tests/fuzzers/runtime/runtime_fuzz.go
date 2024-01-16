@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/chainupcloud/op-geth/core/vm/runtime"
+	"github.com/chainupcloud/op-geth-scroll/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

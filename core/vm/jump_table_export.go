@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 // LookupInstructionSet returns the instruction set for the fork configured by

@@ -17,8 +17,8 @@
 package engine
 
 import (
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // EngineAPIError is a standardized error message between consensus and execution

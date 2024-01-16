@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/internal/cmdtest"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/internal/cmdtest"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 	"github.com/docker/docker/pkg/reexec"
 )
 

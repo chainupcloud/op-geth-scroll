@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainupcloud/op-geth/eth/protocols/eth"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/rlpx"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/rlpx"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 type Message interface {

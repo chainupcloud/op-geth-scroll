@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

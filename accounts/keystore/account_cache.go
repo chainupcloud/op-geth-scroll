@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	mapset "github.com/deckarep/golang-set/v2"
 	"golang.org/x/exp/slices"
 )

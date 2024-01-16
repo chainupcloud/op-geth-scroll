@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 func TestTransaction(t *testing.T) {

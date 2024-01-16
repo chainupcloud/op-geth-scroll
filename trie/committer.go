@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/trie/trienode"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/trie/trienode"
 )
 
 // committer is the tool used for the trie Commit operation. The committer will

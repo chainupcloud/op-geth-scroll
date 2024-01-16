@@ -17,7 +17,7 @@
 package snap
 
 import (
-	metrics "github.com/chainupcloud/op-geth/metrics"
+	metrics "github.com/chainupcloud/op-geth-scroll/metrics"
 )
 
 var (

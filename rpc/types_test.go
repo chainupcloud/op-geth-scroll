@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/math"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

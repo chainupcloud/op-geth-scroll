@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 type accessList struct {

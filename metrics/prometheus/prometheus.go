@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

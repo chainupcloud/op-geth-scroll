@@ -23,13 +23,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/accounts/external"
-	"github.com/chainupcloud/op-geth/accounts/keystore"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/accounts/external"
+	"github.com/chainupcloud/op-geth-scroll/accounts/keystore"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

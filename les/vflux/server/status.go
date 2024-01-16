@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/chainupcloud/op-geth/p2p/nodestate"
+	"github.com/chainupcloud/op-geth-scroll/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

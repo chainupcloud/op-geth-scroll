@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
-	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

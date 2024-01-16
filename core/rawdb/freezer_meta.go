@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 const freezerVersion = 1 // The initial version tag of freezer table metadata

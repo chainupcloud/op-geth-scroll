@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/core/asm"
+	"github.com/chainupcloud/op-geth-scroll/core/asm"
 	"github.com/urfave/cli/v2"
 )
 

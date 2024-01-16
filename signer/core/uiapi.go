@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/accounts/keystore"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/accounts/keystore"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 // SignerUIAPI implements methods Clef provides for a UI to query, in the bidirectional communication

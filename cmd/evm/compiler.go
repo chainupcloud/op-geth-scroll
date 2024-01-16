@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainupcloud/op-geth/cmd/evm/internal/compiler"
+	"github.com/chainupcloud/op-geth-scroll/cmd/evm/internal/compiler"
 
 	"github.com/urfave/cli/v2"
 )

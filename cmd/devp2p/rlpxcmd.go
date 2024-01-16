@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/chainupcloud/op-geth/cmd/devp2p/internal/ethtest"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/rlpx"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/cmd/devp2p/internal/ethtest"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/rlpx"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"github.com/urfave/cli/v2"
 )
 

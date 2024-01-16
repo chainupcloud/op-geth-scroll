@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

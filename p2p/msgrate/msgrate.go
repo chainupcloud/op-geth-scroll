@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

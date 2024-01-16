@@ -16,7 +16,7 @@
 
 package eth
 
-import "github.com/chainupcloud/op-geth/metrics"
+import "github.com/chainupcloud/op-geth-scroll/metrics"
 
 // meters stores ingress and egress handshake meters.
 var meters bidirectionalMeters

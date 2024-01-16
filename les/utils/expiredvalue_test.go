@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

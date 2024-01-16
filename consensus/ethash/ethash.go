@@ -20,9 +20,9 @@ package ethash
 import (
 	"time"
 
-	"github.com/chainupcloud/op-geth/consensus"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/consensus"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // Ethash is a consensus engine based on proof-of-work implementing the ethash

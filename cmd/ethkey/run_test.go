@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/internal/cmdtest"
+	"github.com/chainupcloud/op-geth-scroll/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
 )
 

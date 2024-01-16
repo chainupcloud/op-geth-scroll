@@ -2,7 +2,7 @@
 
 package test
 
-import "github.com/chainupcloud/op-geth/rlp"
+import "github.com/chainupcloud/op-geth-scroll/rlp"
 
 type Test struct {
 	RawValue          rlp.RawValue

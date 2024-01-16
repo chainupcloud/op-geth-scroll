@@ -19,9 +19,9 @@ package trie
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
 )
 
 // preimageStore is the store for caching preimages of node key.

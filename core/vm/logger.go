@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

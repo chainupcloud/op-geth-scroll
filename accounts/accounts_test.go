@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {

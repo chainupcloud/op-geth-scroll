@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/accounts/abi/bind"
-	"github.com/chainupcloud/op-geth/accounts/abi/bind/backends"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi/bind"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi/bind/backends"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainupcloud/op-geth/tests/fuzzers/les"
+	"github.com/chainupcloud/op-geth-scroll/tests/fuzzers/les"
 )
 
 func main() {

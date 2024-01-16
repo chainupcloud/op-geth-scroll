@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

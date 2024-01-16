@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/ethdb"
-	"github.com/chainupcloud/op-geth/ethdb/leveldb"
-	"github.com/chainupcloud/op-geth/ethdb/memorydb"
-	"github.com/chainupcloud/op-geth/ethdb/pebble"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb/leveldb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb/memorydb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb/pebble"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	"github.com/olekukonko/tablewriter"
 )
 

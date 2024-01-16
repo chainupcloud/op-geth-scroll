@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

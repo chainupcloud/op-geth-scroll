@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/event"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/node"
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/simulations/adapters"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/event"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/node"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/simulations/adapters"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 	"github.com/mattn/go-colorable"
 )
 

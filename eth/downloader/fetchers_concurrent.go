@@ -21,10 +21,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/prque"
-	"github.com/chainupcloud/op-geth/eth/protocols/eth"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/prque"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // timeoutGracePeriod is the amount of time to allow for a peer to deliver a

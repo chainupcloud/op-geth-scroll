@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/eth"
-	"github.com/chainupcloud/op-geth/eth/downloader"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/node"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/eth"
+	"github.com/chainupcloud/op-geth-scroll/eth/downloader"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/node"
 )
 
 // FullSyncTester is an auxiliary service that allows Geth to perform full sync

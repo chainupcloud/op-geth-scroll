@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/math"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
 )
 
 func TestCheckCompatible(t *testing.T) {

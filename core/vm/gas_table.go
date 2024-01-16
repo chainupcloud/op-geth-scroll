@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

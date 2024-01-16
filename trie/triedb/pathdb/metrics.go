@@ -16,7 +16,7 @@
 
 package pathdb
 
-import "github.com/chainupcloud/op-geth/metrics"
+import "github.com/chainupcloud/op-geth-scroll/metrics"
 
 var (
 	cleanHitMeter   = metrics.NewRegisteredMeter("pathdb/clean/hit", nil)

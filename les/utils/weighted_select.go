@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 type (

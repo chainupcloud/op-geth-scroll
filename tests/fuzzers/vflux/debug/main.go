@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/tests/fuzzers/vflux"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/tests/fuzzers/vflux"
 )
 
 func main() {

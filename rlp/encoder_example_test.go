@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 type MyCoolType struct {

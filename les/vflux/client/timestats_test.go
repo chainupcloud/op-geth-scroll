@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
 )
 
 func TestTransition(t *testing.T) {

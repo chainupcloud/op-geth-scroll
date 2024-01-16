@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/chainupcloud/op-geth/consensus"
-	"github.com/chainupcloud/op-geth/core/state"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/core/vm"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/consensus"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/vm"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

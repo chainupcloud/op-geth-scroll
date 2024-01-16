@@ -23,8 +23,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

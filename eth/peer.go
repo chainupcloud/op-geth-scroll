@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/chainupcloud/op-geth/eth/protocols/eth"
-	"github.com/chainupcloud/op-geth/eth/protocols/snap"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

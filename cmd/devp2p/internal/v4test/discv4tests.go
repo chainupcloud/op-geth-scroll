@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/utesting"
-	"github.com/chainupcloud/op-geth/p2p/discover/v4wire"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/utesting"
+	"github.com/chainupcloud/op-geth-scroll/p2p/discover/v4wire"
 )
 
 const (

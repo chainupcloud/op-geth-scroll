@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/eth/protocols/eth"
-	"github.com/chainupcloud/op-geth/p2p"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

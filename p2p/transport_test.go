@@ -22,8 +22,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/p2p/simulations/pipes"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/p2p/simulations/pipes"
 	"github.com/davecgh/go-spew/spew"
 )
 

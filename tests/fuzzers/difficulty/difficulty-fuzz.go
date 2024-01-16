@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/consensus/ethash"
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/consensus/ethash"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 type fuzzer struct {

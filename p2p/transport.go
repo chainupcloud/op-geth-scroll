@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/bitutil"
-	"github.com/chainupcloud/op-geth/metrics"
-	"github.com/chainupcloud/op-geth/p2p/rlpx"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/bitutil"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
+	"github.com/chainupcloud/op-geth-scroll/p2p/rlpx"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 const (

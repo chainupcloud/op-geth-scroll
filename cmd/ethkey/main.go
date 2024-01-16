@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainupcloud/op-geth/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/crypto/blake2b"
-	"github.com/chainupcloud/op-geth/crypto/bls12381"
-	"github.com/chainupcloud/op-geth/crypto/bn256"
-	"github.com/chainupcloud/op-geth/crypto/kzg4844"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/crypto/blake2b"
+	"github.com/chainupcloud/op-geth-scroll/crypto/bls12381"
+	"github.com/chainupcloud/op-geth-scroll/crypto/bn256"
+	"github.com/chainupcloud/op-geth-scroll/crypto/kzg4844"
+	"github.com/chainupcloud/op-geth-scroll/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

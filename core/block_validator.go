@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/consensus"
-	"github.com/chainupcloud/op-geth/core/state"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/trie"
+	"github.com/chainupcloud/op-geth-scroll/consensus"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

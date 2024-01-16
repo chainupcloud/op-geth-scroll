@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/p2p"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

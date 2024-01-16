@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

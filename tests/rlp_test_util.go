@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

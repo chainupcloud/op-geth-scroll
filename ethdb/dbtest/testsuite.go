@@ -23,7 +23,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
 	"golang.org/x/exp/slices"
 )
 

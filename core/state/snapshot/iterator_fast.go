@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 	"golang.org/x/exp/slices"
 )
 

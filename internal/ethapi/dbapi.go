@@ -17,8 +17,8 @@
 package ethapi
 
 import (
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 )
 
 // DbGet returns the raw value of a key stored in the database.

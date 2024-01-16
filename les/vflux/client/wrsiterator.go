@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/les/utils"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/nodestate"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

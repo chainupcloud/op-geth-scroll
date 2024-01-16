@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/metrics"
-	"github.com/chainupcloud/op-geth/metrics/prometheus"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
+	"github.com/chainupcloud/op-geth-scroll/metrics/prometheus"
 )
 
 type exp struct {

@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/chainupcloud/op-geth/metrics"
+import "github.com/chainupcloud/op-geth-scroll/metrics"
 
 var (
 	accountUpdatedMeter      = metrics.NewRegisteredMeter("state/update/account", nil)

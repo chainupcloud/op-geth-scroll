@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

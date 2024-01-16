@@ -17,10 +17,10 @@
 package trie
 
 import (
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/ethdb"
-	"github.com/chainupcloud/op-geth/trie/triedb/hashdb"
-	"github.com/chainupcloud/op-geth/trie/triedb/pathdb"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/trie/triedb/hashdb"
+	"github.com/chainupcloud/op-geth-scroll/trie/triedb/pathdb"
 )
 
 // newTestDatabase initializes the trie database with specified scheme.

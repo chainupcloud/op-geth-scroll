@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/ethdb"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/trie/trienode"
-	"github.com/chainupcloud/op-geth/trie/triestate"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/trie/trienode"
+	"github.com/chainupcloud/op-geth-scroll/trie/triestate"
 )
 
 const (

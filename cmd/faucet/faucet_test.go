@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 func TestFacebook(t *testing.T) {

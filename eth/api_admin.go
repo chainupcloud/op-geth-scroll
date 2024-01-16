@@ -24,9 +24,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // AdminAPI is the collection of Ethereum full node related APIs for node

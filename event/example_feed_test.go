@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/event"
+	"github.com/chainupcloud/op-geth-scroll/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

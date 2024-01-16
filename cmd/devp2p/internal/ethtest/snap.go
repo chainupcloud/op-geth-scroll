@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/eth/protocols/snap"
-	"github.com/chainupcloud/op-geth/internal/utesting"
-	"github.com/chainupcloud/op-geth/trie"
-	"github.com/chainupcloud/op-geth/trie/trienode"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/snap"
+	"github.com/chainupcloud/op-geth-scroll/internal/utesting"
+	"github.com/chainupcloud/op-geth-scroll/trie"
+	"github.com/chainupcloud/op-geth-scroll/trie/trienode"
 	"golang.org/x/crypto/sha3"
 )
 

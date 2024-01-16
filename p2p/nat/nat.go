@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

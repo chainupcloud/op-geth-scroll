@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 func nodeToBytes(n node) []byte {

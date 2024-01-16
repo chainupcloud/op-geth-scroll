@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/beacon/merkle"
-	"github.com/chainupcloud/op-geth/beacon/params"
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/beacon/merkle"
+	"github.com/chainupcloud/op-geth-scroll/beacon/params"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // LightClientUpdate is a proof of the next sync committee root based on a header

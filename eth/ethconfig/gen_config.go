@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/txpool/blobpool"
-	"github.com/chainupcloud/op-geth/core/txpool/legacypool"
-	"github.com/chainupcloud/op-geth/eth/downloader"
-	"github.com/chainupcloud/op-geth/eth/gasprice"
-	"github.com/chainupcloud/op-geth/miner"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/txpool/blobpool"
+	"github.com/chainupcloud/op-geth-scroll/core/txpool/legacypool"
+	"github.com/chainupcloud/op-geth-scroll/eth/downloader"
+	"github.com/chainupcloud/op-geth-scroll/eth/gasprice"
+	"github.com/chainupcloud/op-geth-scroll/miner"
 )
 
 // MarshalTOML marshals as TOML.

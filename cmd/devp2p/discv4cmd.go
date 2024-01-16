@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainupcloud/op-geth/cmd/devp2p/internal/v4test"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/flags"
-	"github.com/chainupcloud/op-geth/p2p/discover"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/cmd/devp2p/internal/v4test"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/p2p/discover"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/params"
 	"github.com/urfave/cli/v2"
 )
 

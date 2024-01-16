@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/console/prompt"
+	"github.com/chainupcloud/op-geth-scroll/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

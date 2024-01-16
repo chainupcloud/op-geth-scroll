@@ -24,7 +24,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	"golang.org/x/exp/slices"
 )
 

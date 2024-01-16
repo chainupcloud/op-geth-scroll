@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 	"github.com/holiman/uint256"
 )
 

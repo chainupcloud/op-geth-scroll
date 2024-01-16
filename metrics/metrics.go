@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

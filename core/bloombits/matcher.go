@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/bitutil"
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/common/bitutil"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

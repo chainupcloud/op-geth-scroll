@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/ethdb/memorydb"
-	"github.com/chainupcloud/op-geth/trie"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/ethdb/memorydb"
+	"github.com/chainupcloud/op-geth-scroll/trie"
 	"golang.org/x/exp/slices"
 )
 

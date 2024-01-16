@@ -25,13 +25,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/chainupcloud/op-geth/cmd/utils"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/p2p/discover"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/nat"
-	"github.com/chainupcloud/op-geth/p2p/netutil"
+	"github.com/chainupcloud/op-geth-scroll/cmd/utils"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/p2p/discover"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/nat"
+	"github.com/chainupcloud/op-geth-scroll/p2p/netutil"
 )
 
 func main() {

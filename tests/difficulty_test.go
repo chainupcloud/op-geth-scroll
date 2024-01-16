@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 var (

@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/eth/protocols/snap"
-	"github.com/chainupcloud/op-geth/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/snap"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

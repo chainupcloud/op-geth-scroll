@@ -17,7 +17,7 @@
 // Package bind generates Ethereum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://github.com/chainupcloud/op-geth/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/chainupcloud/op-geth-scroll/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/chainupcloud/op-geth/accounts/abi"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

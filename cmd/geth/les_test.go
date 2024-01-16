@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 type gethrpc struct {

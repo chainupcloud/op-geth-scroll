@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/chainupcloud/op-geth/les/utils"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

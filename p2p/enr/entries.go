@@ -22,7 +22,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // Entry is implemented by known node record entry types.

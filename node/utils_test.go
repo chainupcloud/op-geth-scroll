@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/chainupcloud/op-geth/p2p"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

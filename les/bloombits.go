@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/bitutil"
-	"github.com/chainupcloud/op-geth/light"
+	"github.com/chainupcloud/op-geth-scroll/common/bitutil"
+	"github.com/chainupcloud/op-geth-scroll/light"
 )
 
 const (

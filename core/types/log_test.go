@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

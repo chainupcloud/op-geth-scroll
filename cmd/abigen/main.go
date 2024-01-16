@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/accounts/abi/bind"
-	"github.com/chainupcloud/op-geth/cmd/utils"
-	"github.com/chainupcloud/op-geth/common/compiler"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/internal/flags"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi/bind"
+	"github.com/chainupcloud/op-geth-scroll/cmd/utils"
+	"github.com/chainupcloud/op-geth-scroll/common/compiler"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	"github.com/urfave/cli/v2"
 )
 

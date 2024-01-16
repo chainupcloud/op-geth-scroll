@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/chainupcloud/op-geth/metrics"
-	"github.com/chainupcloud/op-geth/p2p"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
 )
 
 var (

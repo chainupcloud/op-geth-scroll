@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

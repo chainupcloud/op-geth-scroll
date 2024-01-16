@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/core/rawdb"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/core/rawdb"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

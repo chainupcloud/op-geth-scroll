@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

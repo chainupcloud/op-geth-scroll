@@ -22,7 +22,7 @@ import (
 	metrics2 "runtime/metrics"
 	"time"
 
-	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
 )
 
 // ExampleMetrics returns an ordered registry populated with a sample of metrics.

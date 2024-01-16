@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
-	"github.com/chainupcloud/op-geth/internal/testlog"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/internal/testlog"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 func TestServerPortMapping(t *testing.T) {

@@ -19,10 +19,10 @@ package catalyst
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/beacon/engine"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/miner"
+	"github.com/chainupcloud/op-geth-scroll/beacon/engine"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/miner"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

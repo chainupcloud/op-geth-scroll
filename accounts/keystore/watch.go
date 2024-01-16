@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 	"github.com/fsnotify/fsnotify"
 )
 

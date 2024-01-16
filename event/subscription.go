@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

@@ -28,8 +28,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 var (

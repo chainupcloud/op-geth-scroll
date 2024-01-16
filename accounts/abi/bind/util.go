@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/chainupcloud/op-geth"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

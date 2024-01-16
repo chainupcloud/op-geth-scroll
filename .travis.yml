@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/chainupcloud/op-geth
+go_import_path: github.com/chainupcloud/op-geth-scroll
 sudo: false
 jobs:
   allow_failures:

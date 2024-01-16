@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/p2p/enr"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

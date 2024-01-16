@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/ethdb"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"github.com/stretchr/testify/require"
 )
 

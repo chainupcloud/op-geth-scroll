@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
 )
 
 var (

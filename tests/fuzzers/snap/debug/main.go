@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chainupcloud/op-geth/tests/fuzzers/snap"
+	"github.com/chainupcloud/op-geth-scroll/tests/fuzzers/snap"
 )
 
 func main() {

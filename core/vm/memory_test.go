@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 func TestMemoryCopy(t *testing.T) {

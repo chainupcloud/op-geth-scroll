@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/chainupcloud/op-geth"
-	"github.com/chainupcloud/op-geth/event"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll"
+	"github.com/chainupcloud/op-geth-scroll/event"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.

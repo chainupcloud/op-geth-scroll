@@ -16,7 +16,7 @@
 
 package blobpool
 
-import "github.com/chainupcloud/op-geth/metrics"
+import "github.com/chainupcloud/op-geth-scroll/metrics"
 
 var (
 	// datacapGauge tracks the user's configured capacity for the blob pool. It

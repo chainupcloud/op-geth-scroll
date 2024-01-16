@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/chainupcloud/op-geth/accounts/abi"
+import "github.com/chainupcloud/op-geth-scroll/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -91,12 +91,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/chainupcloud/op-geth"
-	"github.com/chainupcloud/op-geth/accounts/abi"
-	"github.com/chainupcloud/op-geth/accounts/abi/bind"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/event"
+	ethereum "github.com/chainupcloud/op-geth-scroll"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi/bind"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

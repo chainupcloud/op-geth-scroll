@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/chainupcloud/op-geth/rlp/internal/rlpstruct"
+	"github.com/chainupcloud/op-geth-scroll/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

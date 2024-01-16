@@ -19,7 +19,7 @@ package console
 import (
 	"testing"
 
-	"github.com/chainupcloud/op-geth/internal/jsre"
+	"github.com/chainupcloud/op-geth-scroll/internal/jsre"
 	"github.com/dop251/goja"
 )
 

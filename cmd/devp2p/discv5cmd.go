@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainupcloud/op-geth/cmd/devp2p/internal/v5test"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/internal/flags"
-	"github.com/chainupcloud/op-geth/p2p/discover"
+	"github.com/chainupcloud/op-geth-scroll/cmd/devp2p/internal/v5test"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/internal/flags"
+	"github.com/chainupcloud/op-geth-scroll/p2p/discover"
 	"github.com/urfave/cli/v2"
 )
 

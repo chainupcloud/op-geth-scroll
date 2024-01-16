@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/p2p/nodestate"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

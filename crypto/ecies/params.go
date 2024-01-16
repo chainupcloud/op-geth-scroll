@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/chainupcloud/op-geth/crypto"
+	ethcrypto "github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 var (

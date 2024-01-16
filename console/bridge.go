@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chainupcloud/op-geth/accounts/scwallet"
-	"github.com/chainupcloud/op-geth/accounts/usbwallet"
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/console/prompt"
-	"github.com/chainupcloud/op-geth/internal/jsre"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/accounts/scwallet"
+	"github.com/chainupcloud/op-geth-scroll/accounts/usbwallet"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/console/prompt"
+	"github.com/chainupcloud/op-geth-scroll/internal/jsre"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 	"github.com/dop251/goja"
 )
 

@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
 	"golang.org/x/exp/constraints"
 )
 

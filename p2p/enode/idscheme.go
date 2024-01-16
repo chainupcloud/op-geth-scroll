@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/chainupcloud/op-geth/common/math"
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/p2p/enr"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/common/math"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enr"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -19,7 +19,7 @@ package snap
 import (
 	"time"
 
-	"github.com/chainupcloud/op-geth/p2p/tracker"
+	"github.com/chainupcloud/op-geth-scroll/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for request times.

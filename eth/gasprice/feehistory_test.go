@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

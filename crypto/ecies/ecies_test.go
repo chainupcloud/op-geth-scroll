@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/crypto"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
 )
 
 func TestKDF(t *testing.T) {

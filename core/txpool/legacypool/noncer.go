@@ -19,8 +19,8 @@ package legacypool
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/state"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
 )
 
 // noncer is a tiny virtual state database to manage the executable nonces of

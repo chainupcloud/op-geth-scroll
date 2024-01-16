@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/eth/protocols/eth"
-	"github.com/chainupcloud/op-geth/eth/protocols/snap"
-	"github.com/chainupcloud/op-geth/p2p"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/eth"
+	"github.com/chainupcloud/op-geth-scroll/eth/protocols/snap"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
 )
 
 var (

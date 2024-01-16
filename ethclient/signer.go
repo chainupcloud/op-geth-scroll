@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/consensus"
-	"github.com/chainupcloud/op-geth/consensus/misc/eip1559"
-	"github.com/chainupcloud/op-geth/consensus/misc/eip4844"
-	"github.com/chainupcloud/op-geth/core/state"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/params"
-	"github.com/chainupcloud/op-geth/rpc"
-	"github.com/chainupcloud/op-geth/trie"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/consensus"
+	"github.com/chainupcloud/op-geth-scroll/consensus/misc/eip1559"
+	"github.com/chainupcloud/op-geth-scroll/consensus/misc/eip4844"
+	"github.com/chainupcloud/op-geth-scroll/core/state"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/params"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
+	"github.com/chainupcloud/op-geth-scroll/trie"
 )
 
 // Proof-of-stake protocol constants.

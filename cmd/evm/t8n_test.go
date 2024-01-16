@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/cmd/evm/internal/t8ntool"
-	"github.com/chainupcloud/op-geth/internal/cmdtest"
+	"github.com/chainupcloud/op-geth-scroll/cmd/evm/internal/t8ntool"
+	"github.com/chainupcloud/op-geth-scroll/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
 )
 

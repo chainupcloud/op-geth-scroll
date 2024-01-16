@@ -34,9 +34,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/chainupcloud/op-geth/crypto"
-	"github.com/chainupcloud/op-geth/crypto/ecies"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/crypto"
+	"github.com/chainupcloud/op-geth-scroll/crypto/ecies"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

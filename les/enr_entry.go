@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/chainupcloud/op-geth/core/forkid"
-	"github.com/chainupcloud/op-geth/p2p/dnsdisc"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/core/forkid"
+	"github.com/chainupcloud/op-geth-scroll/p2p/dnsdisc"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

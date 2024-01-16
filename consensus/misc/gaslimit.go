@@ -19,7 +19,7 @@ package misc
 import (
 	"fmt"
 
-	"github.com/chainupcloud/op-geth/params"
+	"github.com/chainupcloud/op-geth-scroll/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

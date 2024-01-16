@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 func hexToNibbles(s string) []byte {

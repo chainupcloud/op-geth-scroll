@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/accounts/abi"
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

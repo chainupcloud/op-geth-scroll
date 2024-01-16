@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 	"github.com/golang-jwt/jwt/v4"
 )
 

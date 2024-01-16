@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chainupcloud/op-geth/signer/core/apitypes"
-	"github.com/chainupcloud/op-geth/signer/fourbyte"
+	"github.com/chainupcloud/op-geth-scroll/signer/core/apitypes"
+	"github.com/chainupcloud/op-geth-scroll/signer/fourbyte"
 )
 
 func init() {

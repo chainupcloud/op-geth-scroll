@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/rpc"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

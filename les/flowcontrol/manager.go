@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
-	"github.com/chainupcloud/op-geth/common/prque"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

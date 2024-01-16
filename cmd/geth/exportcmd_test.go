@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // TestExport does a basic test of "geth export", exporting the test-genesis.

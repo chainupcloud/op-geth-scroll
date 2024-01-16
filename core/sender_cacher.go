@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 // SenderCacher is a concurrent transaction sender recoverer and cacher.

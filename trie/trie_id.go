@@ -16,7 +16,7 @@
 
 package trie
 
-import "github.com/chainupcloud/op-geth/common"
+import "github.com/chainupcloud/op-geth-scroll/common"
 
 // ID is the identifier for uniquely identifying a trie.
 type ID struct {

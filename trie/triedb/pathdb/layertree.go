@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/trie/trienode"
-	"github.com/chainupcloud/op-geth/trie/triestate"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/trie/trienode"
+	"github.com/chainupcloud/op-geth-scroll/trie/triestate"
 )
 
 // layerTree is a group of state layers identified by the state root.

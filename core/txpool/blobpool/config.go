@@ -17,7 +17,7 @@
 package blobpool
 
 import (
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // Config are the configuration parameters of the blob transaction pool.

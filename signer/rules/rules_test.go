@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/common/hexutil"
-	"github.com/chainupcloud/op-geth/core/types"
-	"github.com/chainupcloud/op-geth/internal/ethapi"
-	"github.com/chainupcloud/op-geth/signer/core"
-	"github.com/chainupcloud/op-geth/signer/core/apitypes"
-	"github.com/chainupcloud/op-geth/signer/storage"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/common/hexutil"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
+	"github.com/chainupcloud/op-geth-scroll/internal/ethapi"
+	"github.com/chainupcloud/op-geth-scroll/signer/core"
+	"github.com/chainupcloud/op-geth-scroll/signer/core/apitypes"
+	"github.com/chainupcloud/op-geth-scroll/signer/storage"
 )
 
 const JS = `

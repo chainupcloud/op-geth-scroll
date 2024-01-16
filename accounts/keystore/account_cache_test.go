@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/chainupcloud/op-geth/accounts"
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/accounts"
+	"github.com/chainupcloud/op-geth-scroll/common"
 	"github.com/davecgh/go-spew/spew"
 	"golang.org/x/exp/slices"
 )

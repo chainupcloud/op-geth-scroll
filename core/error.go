@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 var (

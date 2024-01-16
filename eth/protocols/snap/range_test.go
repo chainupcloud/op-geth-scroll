@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

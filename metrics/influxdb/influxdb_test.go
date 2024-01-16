@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/metrics"
-	"github.com/chainupcloud/op-geth/metrics/internal"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
+	"github.com/chainupcloud/op-geth-scroll/metrics/internal"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 )
 

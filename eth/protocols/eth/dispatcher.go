@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chainupcloud/op-geth/p2p"
+	"github.com/chainupcloud/op-geth-scroll/p2p"
 )
 
 var (

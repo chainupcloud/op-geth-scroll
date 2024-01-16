@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/log"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/log"
 )
 
 // syncState starts downloading state with the given root hash.

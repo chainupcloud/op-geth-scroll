@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/chainupcloud/op-geth/rlp/internal/rlpstruct"
+	"github.com/chainupcloud/op-geth-scroll/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.

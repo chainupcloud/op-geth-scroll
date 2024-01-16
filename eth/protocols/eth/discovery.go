@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/core/forkid"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/core/forkid"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

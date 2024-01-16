@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chainupcloud/op-geth/les/utils"
-	"github.com/chainupcloud/op-geth/les/vflux"
-	"github.com/chainupcloud/op-geth/log"
-	"github.com/chainupcloud/op-geth/p2p/enode"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/les/vflux"
+	"github.com/chainupcloud/op-geth-scroll/log"
+	"github.com/chainupcloud/op-geth-scroll/p2p/enode"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 type (

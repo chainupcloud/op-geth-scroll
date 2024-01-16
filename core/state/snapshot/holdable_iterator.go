@@ -17,8 +17,8 @@
 package snapshot
 
 import (
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/ethdb"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/ethdb"
 )
 
 // holdableIterator is a wrapper of underlying database iterator. It extends

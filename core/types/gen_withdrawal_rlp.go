@@ -2,7 +2,7 @@
 
 package types
 
-import "github.com/chainupcloud/op-geth/rlp"
+import "github.com/chainupcloud/op-geth-scroll/rlp"
 import "io"
 
 func (obj *Withdrawal) EncodeRLP(_w io.Writer) error {

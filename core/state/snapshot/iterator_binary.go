@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

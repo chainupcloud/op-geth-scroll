@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/chainupcloud/op-geth/metrics"
+	"github.com/chainupcloud/op-geth-scroll/metrics"
 )
 
 var (

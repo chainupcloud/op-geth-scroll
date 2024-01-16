@@ -27,7 +27,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/common"
 	"github.com/dop251/goja"
 )
 

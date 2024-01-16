@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common"
-	"github.com/chainupcloud/op-geth/console/prompt"
-	"github.com/chainupcloud/op-geth/core"
-	"github.com/chainupcloud/op-geth/eth"
-	"github.com/chainupcloud/op-geth/eth/ethconfig"
-	"github.com/chainupcloud/op-geth/internal/jsre"
-	"github.com/chainupcloud/op-geth/miner"
-	"github.com/chainupcloud/op-geth/node"
+	"github.com/chainupcloud/op-geth-scroll/common"
+	"github.com/chainupcloud/op-geth-scroll/console/prompt"
+	"github.com/chainupcloud/op-geth-scroll/core"
+	"github.com/chainupcloud/op-geth-scroll/eth"
+	"github.com/chainupcloud/op-geth-scroll/eth/ethconfig"
+	"github.com/chainupcloud/op-geth-scroll/internal/jsre"
+	"github.com/chainupcloud/op-geth-scroll/miner"
+	"github.com/chainupcloud/op-geth-scroll/node"
 )
 
 const (

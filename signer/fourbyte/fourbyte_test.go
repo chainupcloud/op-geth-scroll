@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainupcloud/op-geth/accounts/abi"
-	"github.com/chainupcloud/op-geth/common"
+	"github.com/chainupcloud/op-geth-scroll/accounts/abi"
+	"github.com/chainupcloud/op-geth-scroll/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

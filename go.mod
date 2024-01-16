@@ -1,4 +1,4 @@
-module github.com/chainupcloud/op-geth
+module github.com/chainupcloud/op-geth-scroll
 
 go 1.20
 

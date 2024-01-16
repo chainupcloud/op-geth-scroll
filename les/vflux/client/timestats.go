@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/chainupcloud/op-geth/les/utils"
-	"github.com/chainupcloud/op-geth/rlp"
+	"github.com/chainupcloud/op-geth-scroll/les/utils"
+	"github.com/chainupcloud/op-geth-scroll/rlp"
 )
 
 const (

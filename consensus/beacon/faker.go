@@ -19,8 +19,8 @@ package beacon
 import (
 	"math/big"
 
-	"github.com/chainupcloud/op-geth/consensus"
-	"github.com/chainupcloud/op-geth/core/types"
+	"github.com/chainupcloud/op-geth-scroll/consensus"
+	"github.com/chainupcloud/op-geth-scroll/core/types"
 )
 
 // NewFaker creates a fake consensus engine for testing.

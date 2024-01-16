@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/chainupcloud/op-geth/accounts/keystore"
+	"github.com/chainupcloud/op-geth-scroll/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

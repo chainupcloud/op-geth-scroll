@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chainupcloud/op-geth/common/mclock"
+	"github.com/chainupcloud/op-geth-scroll/common/mclock"
 )
 
 func TestExpHeap(t *testing.T) {
