@@ -460,10 +460,11 @@ func (tx *Transaction) UnmarshalJSON(input []byte) error {
 			return errors.New("missing required field 'from' in transaction")
 		}
 		itx.From = *dec.From
-		if dec.SourceHash == nil {
-			return errors.New("missing required field 'sourceHash' in transaction")
-		}
-		itx.SourceHash = *dec.SourceHash
+		// for scroll
+		//if dec.SourceHash == nil {
+		//	return errors.New("missing required field 'sourceHash' in transaction")
+		//}
+		//itx.SourceHash = *dec.SourceHash
 		// IsSystemTx may be omitted. Defaults to false.
 		if dec.IsSystemTx != nil {
 			itx.IsSystemTransaction = *dec.IsSystemTx
